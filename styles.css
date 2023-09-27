@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.product {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+.button1 {
+    background-color: white;
+    color: black;
+    border: 2px solid #008CBA;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.button1:hover {
+    background-color: #008CBA;
+    color: white;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.button2 {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.button2:hover {
+    background-color: #4CAF50;
+    color: white;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.button3 {
+    background-color: white;
+    color: black;
+    border: 2px solid #FF8333;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.button3:hover {
+    background-color: #FF8333;
+    color: white;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.add-to-cart {
+    background-color: white;
+    color: black;
+    border: 2px solid #93FF33;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.add-to-cart:hover {
+    background-color: #93FF33;
+    color: white;
+    height: 40px;
+    border-radius: 5px;
+}
+
+
+/* Estilo para el contenedor del formulario */
+.filter-container {
+    margin-bottom: 20px;
+}
+
+/* Estilo para la etiqueta */
+label {
+    display: block; /* Coloca la etiqueta en una nueva línea */
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Estilo para el select */
+#sortProducts {
+    width: 200px; /* Ancho del select */
+    padding: 10px; /* Espaciado interno */
+    border: 1px solid #ccc; /* Borde con color de fondo */
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 16px;
+}
+
+/* Estilo para las opciones del select */
+#sortProducts option {
+    background-color: #fff; /* Color de fondo de las opciones */
+}
+
+/* Estilo para el select */
+select {
+    width: 200px; /* Ancho del select */
+    padding: 10px; /* Espaciado interno */
+    border: 1px solid #ccc; /* Borde con color de fondo */
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 16px;
+}
+
+/* Estilo para las opciones del select */
+select option {
+    background-color: #fff; /* Color de fondo de las opciones */
+}
